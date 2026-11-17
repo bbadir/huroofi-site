@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>حروفي – حمّل التطبيق</title>
+<meta name="description" content="حروفي: تعليم الحروف العربية للأطفال – App Store و Google Play">
+<meta property="og:title" content="حروفي – تعليم الحروف العربية للأطفال">
+<meta property="og:image" content="https://bbadir.github.io/huroofi-site/promo/huroofi-icon.png">
+<script>
+(function(){
+  var ios="https://apps.apple.com/app/id6818857035";
+  var android="https://play.google.com/store/apps/details?id=com.belalbader.huroofi";
+  var ua=navigator.userAgent||"";
+  var isIOS=/iPhone|iPad|iPod/i.test(ua)||(/Macintosh/.test(ua)&&navigator.maxTouchPoints>1);
+  if(/Android/i.test(ua)) location.replace(android);
+  else if(isIOS) location.replace(ios);
+})();
+</script>
+<style>
+body{margin:0;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:18px;padding:24px 16px;box-sizing:border-box;font-family:-apple-system,"Segoe UI",Tahoma,Arial,sans-serif;background:#fffaf0;color:#2b2b2b;text-align:center}
+img{width:96px;height:96px;border-radius:22px}
+h1{margin:0;color:#1f7a6d;font-size:28px}
+a.btn{display:block;width:240px;padding:14px 0;border-radius:12px;background:#1f7a6d;color:#fff;text-decoration:none;font-size:18px;font-weight:600}
+</style>
+</head>
+<body>
+<img src="../promo/huroofi-icon.png" alt="حروفي">
+<h1>حروفي</h1>
+<a class="btn" href="https://apps.apple.com/app/id6818857035">App Store (iPhone)</a>
+<a class="btn" href="https://play.google.com/store/apps/details?id=com.belalbader.huroofi">Google Play (Android)</a>
+</body>
+</html>
